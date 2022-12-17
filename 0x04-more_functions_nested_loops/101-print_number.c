@@ -9,7 +9,7 @@
  * Return: x^y
  */
 
-void print_number(int n);
+int exponent(int x, int y)
 {
 	int power;
 
