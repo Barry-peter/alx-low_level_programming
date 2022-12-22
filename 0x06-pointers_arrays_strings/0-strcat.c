@@ -1,14 +1,13 @@
 #include "main.h"
 
-/*
- * _strcat - this a prototype to concatenate strings
- * @dest: first param
- * @src: source param
- *
- * Return: strings
+/**
+ *_strcat - function to concatenates two strings
+ * @src: append from
+ * @dest: append to
+ * Return: char and a string
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int i, n;
 
@@ -18,5 +17,5 @@ char *_strcat(char *dest, char *src);
 	for (n = 0; (dest[i + n] = *src++) != '\0'; n++)
 	{
 	}
-	return (dest)
+	return (dest);
 }
