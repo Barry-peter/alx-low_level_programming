@@ -14,10 +14,12 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	unsigned int i;
 
 	i = 0;
-	while (i < n) /* declaring WHILE */
+	while (i < n)  /*Delacring WHILE*/
 	{
-		*(dest + 1) = *(src + 1); /*Add 1 position to dest and src*/
-	} /*end WHILE*/
+		*(dest + i) = *(src + i); /*add 1 position dest and src*/
+		i++;
+
+	} /*END WHILE*/
 
 	return (dest);
 }
